@@ -1,0 +1,58 @@
+body{
+  margin: 0px;
+
+}
+
+.head{
+      
+  background-color:rgb(212, 188, 188);
+  border:solid;
+  font-family: fantasy;
+   }
+
+   .note{
+     
+     border: dotted;
+     
+   }
+
+   .menu{
+     display: flex;
+     justify-content: start;
+    
+     padding: 15px;
+     font-size: 20px;
+     font-family: sans-serif;
+     font-weight: 400;
+     color: #000000;
+     
+     
+   }
+
+   .img{
+    border: 2px solid #000000;
+    padding: 10%;
+   }
+
+.grid {
+  background: darkred;
+  background-color: #aed0f0;
+  background-image: url(bg.png);
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.origami {
+  border: 1px solid #7979af;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 500px;
+  padding: 50px;
+  background-color:#7eaca6;
+  border-width: 6px;
+  
+}
